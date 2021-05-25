@@ -1,13 +1,13 @@
-package pro.marcuss.springnetflix.sample.productmicroservice;
+package pro.marcuss.springnetflix.orders.ordersmicroservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ProductMicroserviceApplication {
+public class OrdersMicroserviceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ProductMicroserviceApplication.class, args);
+		SpringApplication.run(OrdersMicroserviceApplication.class, args);
 	}
 
 }
